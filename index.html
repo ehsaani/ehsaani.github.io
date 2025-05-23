@@ -2,41 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Eziyo Ehsani | Portfolio</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #2c3e50;
+      line-height: 1.6;
     }
     header {
-      background-color: #222;
-      color: white;
-      padding: 20px;
+      background-color: #1a1a1a;
+      color: #ffffff;
       text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #bbbbbb;
     }
     section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #444;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-    .contact, .social {
-      margin: 10px 0;
-    }
-    a {
-      color: #0073e6;
-      text-decoration: none;
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
     }
     .section-block {
-      margin-bottom: 30px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 25px;
+      transition: transform 0.3s ease;
+    }
+    .section-block:hover {
+      transform: translateY(-3px);
+    }
+    h2 {
+      color: #34495e;
+      border-bottom: 2px solid #ecf0f1;
+      padding-bottom: 8px;
+      margin-top: 0;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .social a {
+      margin-right: 10px;
+      display: inline-block;
+      background-color: #ecf0f1;
+      padding: 6px 10px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .social a:hover {
+      background-color: #d0d7de;
     }
   </style>
 </head>
@@ -50,16 +84,16 @@
 <section>
   <div class="section-block">
     <h2>About Me</h2>
-    <p>Data Enthusiastic on a perpetual learning curve, honing analytical skills daily. Eager collaborator with a passion for teamwork and open communication.</p>
+    <p>Data enthusiast on a perpetual learning curve, honing analytical skills daily. Eager collaborator with a passion for teamwork and open communication.</p>
   </div>
 
   <div class="section-block">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:mohammadd.ehsanii@gmail.com">mohammadd.ehsanii@gmail.com</a></p>
+    <p>Email: <a href="mailto:ehsaani.mo@gmail.com">mohammadd.ehsanii@gmail.com</a></p>
     <p>Location: Naples, Italy</p>
     <p class="social">
-      <a href="https://www.linkedin.com/in/eziyo" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/mohammadehsanii" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/eziyo" target="_blank">LinkedIn</a>
+      <a href="https://github.com/ehsaani" target="_blank">GitHub</a>
       <a href="https://www.kaggle.com/mohammadehsani" target="_blank">Kaggle</a>
     </p>
   </div>
@@ -75,10 +109,10 @@
   <div class="section-block">
     <h2>Work Experience</h2>
     <ul>
-      <li><strong>Digiter Digita Academy | Deloitte</strong>, Business Analyst – Naples, Italy (Nov 2023 – Jul 2024)</li>
-      <li><strong>Ponisha</strong>, Data Analyst – Rasht, Iran (Apr 2023 – Sep 2023)</li>
-      <li><strong>Keysun Data Processing</strong>, Data Analyst – Rasht, Iran (Jul 2021 – Jan 2023)</li>
-      <li><strong>Keysun Data Processing</strong>, Data Analyst Intern – Rasht, Iran (Apr 2022 – Jun 2022)</li>
+      <li><strong>Digiter Digital Academy | Deloitte</strong> – Business Analyst (Nov 2023 – Jul 2024, Naples, Italy)</li>
+      <li><strong>Ponisha</strong> – Data Analyst (Apr 2023 – Sep 2023, Rasht, Iran)</li>
+      <li><strong>Keysun Data Processing</strong> – Data Analyst (Jul 2021 – Jan 2023, Rasht, Iran)</li>
+      <li><strong>Keysun Data Processing</strong> – Data Analyst Intern (Apr 2022 – Jun 2022, Rasht, Iran)</li>
     </ul>
   </div>
 
